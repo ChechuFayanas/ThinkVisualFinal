@@ -1,0 +1,87 @@
+[
+    {
+        "imagen": "imagenes/html5_arbol.png",
+        "titulo": "Proyecto 1",
+        "subtitulo": "Visual Thinking Básico",
+        "descripcion": "Taller introductorio de Visual Thinking para equipos de trabajo.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5_agilidad.png",
+        "titulo": "Proyecto 2",
+        "subtitulo": "Pensamiento Creativo",
+        "descripcion": "Desarrollo de habilidades creativas a través de la visualización.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5_sentido_sustentable.png",
+        "titulo": "Proyecto 3",
+        "subtitulo": "Dinámicas Grupales",
+        "descripcion": "Facilitación gráfica en talleres grupales de integración.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5_biografia_visual.png",
+        "titulo": "Proyecto 4",
+        "subtitulo": "Mapa Mental",
+        "descripcion": "Creación de mapas mentales para mejorar la organización de ideas.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5_beneficios_2.png",
+        "titulo": "Proyecto 5",
+        "subtitulo": "Organización Visual",
+        "descripcion": "Técnicas visuales para mejorar la organización personal.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5-beneficios4.png",
+        "titulo": "Proyecto 6",
+        "subtitulo": "Resumen Visual",
+        "descripcion": "Resúmenes visuales de temas complejos.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5-beneficios5.png",
+        "titulo": "Proyecto 7",
+        "subtitulo": "Storytelling Visual",
+        "descripcion": "Contar historias a través de imágenes.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5-beneficio3.png",
+        "titulo": "Proyecto 8",
+        "subtitulo": "Pensamiento Sistémico",
+        "descripcion": "Análisis y mapeo de sistemas complejos.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5-beneficios6.png",
+        "titulo": "Proyecto 9",
+        "subtitulo": "Agilidad Visual",
+        "descripcion": "Mejorando procesos ágiles con visualización.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5-beneficios4.png",
+        "titulo": "Proyecto 10",
+        "subtitulo": "Diseño Visual",
+        "descripcion": "Creación de materiales visuales de apoyo.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5-bienvenida.png",
+        "titulo": "Proyecto 11",
+        "subtitulo": "Visual Thinking para Niños",
+        "descripcion": "Talleres de pensamiento visual para niños.",
+        "boton": "Ver más"
+    },
+    {
+        "imagen": "imagenes/html5-propósito.jpg",
+        "titulo": "Proyecto 12",
+        "subtitulo": "Comunicación Efectiva",
+        "descripcion": "Uso del pensamiento visual para mejorar la comunicación.",
+        "boton": "Ver más"
+    }
+]
+

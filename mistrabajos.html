@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title> think_visual_</title>
+    <meta charset="UTF-8">
+    <link href="css/estilos.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <style>
+   
+        .container {
+            display: flex;
+            width: 70%;
+            margin: auto;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 1200px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 250px;
+            background-color: #fff;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin: 0;
+            color: #333;
+        }
+        .card h3 {
+            font-size: 1.2em;
+            color: #666;
+            margin: 5px 0;
+        }
+        .card p {
+            font-size: 1em;
+            color: #444;
+            margin-bottom: 10px;
+        }
+        .card button {
+            padding: 10px;
+            background-color: indigo;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .card button:hover {
+            background-color: rgb(217, 166, 228)
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container">
+            <div id="logo">
+                <img src="imagenes/html5-logosinfondo.png" alt="logo de think_visual_">
+
+                <h3 id="marca"> Think_Visual</h3>
+            </div>
+            <nav>
+                <div class="menu-btn" type="button" title="menu">&#9776;</div>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a class="menu-item-selected" href="mistrabajos.html">Mis trabajos</a></li>
+                    <li><a href="biografia.html">Biografía</a></li>
+                    <li><a href="comunidaddepractica.html">Comunidad de práctica</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="inicio" class="section">
+        <!-- Contenido de la sección "Inicio" -->
+    </div>
+    <div id="mistrabajos" class="section">
+        <!-- Contenido de la sección "Experiencia" -->
+    </div>
+    <div id="biografia" class="section">
+        <!-- Contenido de la sección "Viaja" -->
+    </div>
+    <div id="comunidaddepractica" class="section">
+        <!-- Contenido de la sección "Fotos" -->
+    </div>
+    <div id="contacto" class="section">
+        <!-- Contenido de la sección "Chat" -->
+    </div>
+    <div id="registro" class="section">
+        <!-- Contenido de la sección "Chat" -->
+    </div>
+
+   
+    </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <article>
+
+
+                <h1> Mis trabajos</h1>
+
+                <div class="container" id="cardContainer"></div>
+
+    <script>
+        // Leer el archivo JSON externo y generar las tarjetas
+        fetch('mistrabajos.json')
+            .then(response => response.json())
+            .then(proyectos => {
+                const container = document.getElementById('cardContainer');
+                
+                proyectos.forEach(proyecto => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+
+                    card.innerHTML = `
+                        <img src="${proyecto.imagen}" alt="${proyecto.titulo}">
+                        <div class="card-content">
+                            <h2>${proyecto.titulo}</h2>
+                            <h3>${proyecto.subtitulo}</h3>
+                            <p>${proyecto.descripcion}</p>
+
+                            <button onclick="window.location.href='contacto.html'">${proyecto.boton}</button>
+                           
+                        </div>
+                    `;
+                    
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => console.error('Error al cargar el JSON:', error));
+    </script>
+
+
+
+
+
+                <!-- <div class="contenedor-flex" id="contenedor-trabajos"> -->
+
+
+                    <!-- <div class="trabajo">
+
+                        <figure> <img src="imagenes/html5_arbol.png" alt="el arbol del bienestar">
+                        </figure>
+
+                        <figcaption class="arbol"> El árbol del bienestar</figcaption>
+                        <p>Registro gráfico que realicé para el cierre de un taller de experiencia bienestar en una
+                            empresa.</p>
+                    </div>
+
+
+
+
+                    <div class="trabajo">
+                        <figure class="sustentable"> <img src="imagenes/html5_sentido_sustentable.png"
+                                alt="sentido sustentable">
+                        </figure>
+
+                        <figcaption class="sustentable"> Sentido sustentable</figcaption>
+
+                        <p> Resumen visual del mensaje de una empresa comprometida con el planeta.</p>
+                    </div>
+
+
+
+
+
+                    <div class="trabajo">
+                        <figure class="agilidad"> <img src="imagenes/html5_agilidad.png" alt="Agilidad">
+                        </figure>
+
+                        <figcaption class="agilidad"> Agilidad</figcaption>
+                        <p> Pensando en la solución a través de la agilidad</p>
+                    </div>
+
+
+                    <div class="trabajo">
+                        <figure class="gestionerror"> <img src="imagenes/html5_gestion_del_error.png"
+                                alt="Gestión del error">
+                        </figure>
+
+                        <figcaption class="gestionerror"> Gestión del error</figcaption>
+                        <p> Facilitación gráfica de un taller</p>
+                    </div>
+                              -->
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </article>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <img class="footer-img" alt="ilustracion" src="imagenes/html5-gif.gif">
+        </div>
+    </footer>
+    <a class="instagram" href="https://www.instagram.com/think_visual_/?igsh=YXNoMmVsOTVidjV3&utm_source=qr">¡Seguime en
+        Instagram!</a>
+
+
+    <script src="tuArchivo.js"></script>
+    <!-- <script src="mistrabajos.js"></script> -->
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+
+
+</html>

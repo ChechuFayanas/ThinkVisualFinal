@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> think_visual_</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/> 
+    </head>
+    <body>
+        <header>
+            
+            <div class="container">
+                <div id="logo">
+                    <img src="imagenes/html5-logosinfondo.png" alt="logo de think_visual_">
+        
+                    <h3 id="marca"> Think_Visual</h3>
+                </div>
+                <nav>
+                    <div class="menu-btn" type="button" title="menu">&#9776;</div>
+                    <ul class="menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="mistrabajos.html">Mis Trabajos</a></li>
+                        <li><a href="biografia.html">Biografía</a></li>
+                        <li><a href="comunidaddepractica.html">Comunidad de práctica</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a class="menu-item-selected" href="registro.html">Registro</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <div id="inicio" class="section">
+            <!-- Contenido de la sección "Inicio" -->
+        </div>
+        <div id="mistrabajos" class="section">
+            <!-- Contenido de la sección "Experiencia" -->
+        </div>
+        <div id="biografia" class="section">
+            <!-- Contenido de la sección "Viaja" -->
+        </div>
+        <div id="comunidaddepractica" class="section">
+            <!-- Contenido de la sección "Fotos" -->
+        </div>
+        <div id="contacto" class="section">
+            <!-- Contenido de la sección "Chat" -->
+        </div>
+        <div id="registro" class="section">
+            <!-- Contenido de la sección "Chat" -->
+        </div>
+
+        <script src="script.js"></script>
+         </nav>
+
+        </header>
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+<main>
+  <section>
+    <article>
+      <h2>¡Regístrate y obtené tu eBook gratis!</h2>
+
+      <div class="contenedorregistrar">
+        <h2>Registro</h2>
+        <form id="registroForm" onsubmit="return validarRegistro()"> <!-- form: Es una etiqueta HTML que define un formulario en una página web -- Mediante el evento Onsubmit se registra cuando el usuario envía el formulario. ESta funcionalidad permite que el usuario cuando olvida algún dato, le recuerda "en todos los campos" que debe validarlo( el nombre no puede contener números y en correo electrónico si o si debe tener @). En contraseña y confirmación de contraseña bloquea los caracteres       -->
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div class="form-group">
+            <label for="confirm_password">Confirmar Contraseña</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+          </div>
+          <button type="submit" class="btn">Registrarse</button>
+        </form>
+      </div>
+    </article>
+  </section>
+
+
+
+    <details>
+      <summary>Ver beneficios del registro</summary>
+      <p>Al registrarte, obtendrás un eBook exclusivo con un glosario de palabras clave y stickers para tus sketch notes.</p>
+    </details>
+
+    <details>
+      <summary>¿Cómo utilizo el eBook?</summary>
+      <p>El eBook es una guía completa de visual thinking. Incluye ejemplos prácticos para tus proyectos.</p>
+    </details>
+
+    <details>
+      <summary>¿Cómo recibiré el eBook?</summary>
+      <p>Recibirás el eBook en tu bandeja de entrada después de completar el registro.</p>
+    </details>
+  </section>
+
+
+
+ 
+
+  <section class="registrominiebook">
+    <div class="imagenminiebook">
+      <figure class="imagenminiebook">
+        <img src="imagenes/html5-ebook.jpg" alt="Imagen del eBook">
+      </figure>
+      <p>¡No te pierdas el exclusivo eBook con un glosario de palabras clave y stickers para tus sketch notes!</p>
+    </div>
+  </section>
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="contenedor-footer">
+           <img class="footer-img" alt="ilustracion" src="imagenes/html5-gif.gif">
+       </div> 
+   </footer>   
+ <a class="instagram" href="https://www.instagram.com/think_visual_/?igsh=YXNoMmVsOTVidjV3&utm_source=qr">¡Seguime en Instagram!</a>
+
+
+       </div>
+        
+
+       <script src="script.js"></script>
+
+    
+
+    </body>
+</html>

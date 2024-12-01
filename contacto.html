@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <title> think_visual_</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    </head>
+    <body>
+        <header
+        <div class="container">
+            <div id="logo">
+                <img src="imagenes/html5-logosinfondo.png" alt="logo de think_visual_">
+    
+                <h3 id="marca"> Think_Visual</h3>
+            </div>
+            <nav>
+                <div class="menu-btn" type="button" title="menu">&#9776;</div>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="mistrabajos.html">Mis Trabajos</a></li>
+                    <li><a href="biografia.html">Biografía</a></li>
+                    <li><a href="comunidaddepractica.html">Comunidad de práctica</a></li>
+                    <li><a class="menu-item-selected"  href="contacto.html">Contacto</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="inicio" class="section">
+        <!-- Contenido de la sección "Inicio" -->
+    </div>
+    <div id="mistrabajos" class="section">
+        <!-- Contenido de la sección "Experiencia" -->
+    </div>
+    <div id="biografia" class="section">
+        <!-- Contenido de la sección "Viaja" -->
+    </div>
+    <div id="comunidaddepractica" class="section">
+        <!-- Contenido de la sección "Fotos" -->
+    </div>
+    <div id="contacto" class="section">
+        <!-- Contenido de la sección "Chat" -->
+    </div>
+    <div id="registro" class="section">
+        <!-- Contenido de la sección "Chat" -->
+    </div>
+
+    <script src="script.js"></script>
+        </nav>
+
+        </header>
+    
+    <main>
+        <section class="contacto">
+            <h2>Espero tu mensaje</h2>
+        
+        <div class="contenedor-formulario">
+            <form action="#" class="formulario">
+                <div class="contenedor-campo">
+                    <input type="text" name="nombre" id="nombre" placeholder="Ej: Chechu Fayanas" class="formulario-campo">
+                </div>
+                <div class="contenedor-campo">
+                    <input type="email" name="email" id="email" placeholder="email@email.com" class="formulario-campo">
+                </div>
+                <div class="contenedor-campo">
+                    <textarea name="mensaje" id="mensaje" placeholder="Escribi tu mensaje" class="formulario-campo"></textarea>
+                </div>
+        
+                <div class="formulario-boton">
+                    <input type="submit" value="Enviar">
+                </div>
+        
+            </form>
+        </div>
+        
+        </section>
+
+
+
+<!-- Popup -->
+<div class="popup" id="popup" style="display: none;">
+    <div class="popup-content">
+        <p>¡Gracias, pronto responderé tu consulta!</p>
+        <button id="closePopup">Cerrar</button>
+    </div>
+</div>
+
+
+
+
+
+<section class="contacto">
+    <h2>Espero tu mensaje</h2>
+
+    <div class="contenedor-formulario">
+        <form action="#" class="formulario">
+            <!-- Campos del formulario -->
+
+            
+            </div>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+     
+    <footer>
+        <div class="contenedor-footer">
+           <img class="footer-img" alt="ilustracion" src="imagenes/html5-gif.gif">
+       </div> 
+   </footer>   
+ <a class="instagram" href="https://www.instagram.com/think_visual_/?igsh=YXNoMmVsOTVidjV3&utm_source=qr">¡Seguime en Instagram!</a>
+
+ <script src="script.js"></script>
+
+ <div id="resultado"></div> <!-- Aquí se mostrarán los datos -->
+
+
+
+
+
+><script>// Seleccionar elementos
+    const contactForm = document.getElementById('contactForm');
+    const popup = document.getElementById('popup');
+    const closePopupButton = document.getElementById('closePopup');
+    
+    // Interceptar el envío del formulario
+    contactForm.addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevenir el envío real del formulario
+    
+        // Mostrar el popup
+        popup.style.display = 'flex';
+    });
+    
+    // Cerrar el popup al hacer clic en el botón
+    closePopupButton.addEventListener('click', function () {
+        popup.style.display = 'none';
+    });
+    
+    
+    </script>
+
+
+
+
+    </body>
+
+
+</html>

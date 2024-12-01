@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title> think_visual_</title>
+    <meta charset="UTF-8">
+    <link href="css/estilos.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  
+</head>
+
+<body>
+    <header>
+    <div class="container">
+        <div id="logo">
+            <img src="imagenes/html5-logosinfondo.png" alt="logo de think_visual_">
+
+            <h3 id="marca"> Think_Visual</h3>
+        </div>
+        <nav>
+            <div class="menu-btn" type="button" title="menu">&#9776;</div>
+            <ul class="menu">
+                <li><a class="menu-item-selected" href="index.html">Inicio</a></li>
+                <li><a href="mistrabajos.html">Mis Trabajos</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="comunidaddepractica.html">Comunidad de práctica</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <div id="inicio" class="section">
+        <!-- Contenido de la sección "Inicio" -->
+    </div>
+    <div id="mistrabajos" class="section">
+        <!-- Contenido de la sección "Experiencia" -->
+    </div>
+    <div id="biografia" class="section">
+        <!-- Contenido de la sección "Viaja" -->
+    </div>
+    <div id="comunidaddepractica" class="section">
+        <!-- Contenido de la sección "Fotos" -->
+    </div>
+    <div id="contacto" class="section">
+        <!-- Contenido de la sección "Chat" -->
+    </div>
+    <div id="registro" class="section">
+        <!-- Contenido de la sección "Chat" -->
+    </div>
+        
+
+
+
+
+
+
+
+
+
+        <section class="hero">
+            <div>
+                <div class="text-container">
+                <h1 class="index"> ¿Estás buscando comunicar de una manera diferente y que genere impacto? </h1>
+                <p> <strong>¡Puedo ayudarte!</strong> Creando una comunicación visual fácil de entender, simple y concreta para tu audiencia.</p>
+    
+                <a href="contacto.html" class="botoncontactame"> ¡Comencemos ya!</a>
+
+                
+            </div>
+            </div>
+                <figure class="imagenbienvenida"> <img src="imagenes/html5-bienvenida.png"> </figure>
+
+        </section>
+
+        <section class="servicios">
+            <h2>¿Te ayudo?</h2>
+
+            <div class="lista-servicios">
+            <div class="servicio">
+                <h3>¿Cómo lo hago?</h3>
+                <p>Comprendo  tu idea y objetivo.
+                   Personalizo e interpreto.  
+                   Simplifico el mensaje para generar un impacto poderoso.</p>
+                
+            </div>
+                
+            <div class="servicio">
+                <h3>¿Sos conferencista y buscas generar impacto?</h3>
+                <p>Interpreto en vivo tu charla o webinar, asegurando que tu mensaje llegue con claridad y precisión a todos tus oyentes.</p>
+            </div>
+            <div class="servicio">
+                <h3>¿Solo necesitas una presentación visual?</h3>
+                <p>Si buscas diseñar la tapa de un libro, un disco, o simplemente necesitas ayuda para dar forma a tus
+                    ideas, ¡Acá estoy para ayudarte!</p>
+            </div>
+        </div>
+                
+           
+            <a href="contacto.html" class="botoncontactame secondary">¡Comencemos ya!</a>
+                
+
+        </section>
+        <section class="servicios white-section">
+                <h2>Beneficios del Visual Thinking</h2>
+                <p class="subheading">El Visual Thinking es una forma innovadora de comunicar, simplificar lo complejo y generar impacto
+                    con imágenes claras y palabras claves.
+                    Te ayudo a transformar tus conceptos abstractos en representaciones visuales poderosas que conectan,
+                    inspiran y dejan huella. </p>
+            <div class="grid-bennefits">
+                <figure class="beneficios"> <img src="imagenes/html5-beneficios1.png"> </figure>
+                <figure class="beneficios"> <img src="imagenes/html5_beneficios_2.png"> </figure>
+                <figure class="beneficiso"> <img src="imagenes/html5-beneficio3.png"> </figure>
+                <figure class="beneficios"> <img src="imagenes/html5-beneficios4.png"> </figure>
+                <fugure class="beneficios"> <img src="imagenes/html5-beneficios5.png"> </fugure>
+                <figure class="beneficios"> <img src="imagenes/html5-beneficios6.png"> </figure>
+            </div>
+            <div class="contenedor-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QMHfpyY_ccs?si=W2T90Nn_1PrDayLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- Pop-up que tapa todo el contenido -->
+    <div class="overlay" id="popupOverlay">
+        <div class="popup">
+            <h2>¡Oferta exclusiva!</h2>
+            <button>Conocé más</button>
+            <a id="closePopup">Clic para cerrar</a>
+
+        
+
+        </div>
+    </div>
+
+
+<!-- JS -->
+<script>
+    const overlay = document.getElementById('popupOverlay');
+    const closePopup = document.getElementById('closePopup');
+
+    closePopup.addEventListener('click', () => {
+        overlay.style.display = 'none';
+    });
+</script>
+
+
+
+
+
+
+    <footer>
+        <div class="contenedor-footer">
+           <img class="footer-img" alt="ilustracion" src="imagenes/html5-gif.gif">
+       </div> 
+   </footer>   
+ <a class="instagram" href="https://www.instagram.com/think_visual_/?igsh=YXNoMmVsOTVidjV3&utm_source=qr">¡Seguime en Instagram!</a>
+
+ <script src="script.js" ></script>
+</body>
+
+
+</html>
